@@ -683,6 +683,15 @@ input.form-control::placeholder{
                                     }
                                     
                                 }
+
+                                   @media(min-width: 900px) {
+                                    .top_right{
+                                        
+                                        margin-left: 690px !important;
+                                        
+                                        font-size: 18px;
+                                    }}
+                                
                                 
                                 
                                                                
