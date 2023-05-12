@@ -1,0 +1,691 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+
+
+.head-top {
+    background: #2DAB90 !important;
+    height: 40px;
+    display: flex !important;
+    flex-direction: row !important;
+    line-height: 40px;
+}
+
+.top_right{
+    display: flex;
+    margin-left: 140px;
+    padding: 0px 0px;
+}
+
+
+
+.user_login_block{
+    /* border: 1px white solid; */
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    /* border-radius: 10px; */
+}
+
+.user_login_block a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0px;
+}
+
+
+.header-center{
+    background: linear-gradient(90.4deg, #f35230, #f38430) !important;
+    padding: 0px;
+}
+
+.header-center .kk_logo{
+height: 55px !important;
+width: 130px;
+padding-left: 0px;
+}
+
+.menu-icon{
+    background-image: url(./image/3-dots.png) !important;
+   position: relative;
+   margin-left: -32px !important;
+   margin-top: 10px;
+   background-position: 0px;
+   display: inline-block;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+}
+
+.menu_toggle{
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+.top-bannar .backgroundimage{
+    /* width: 100% ;
+    height: 800px; */
+    margin-top: -1px;
+    background-image: url(./image/orange1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 950px;
+
+}
+
+
+
+.top-bannar .serchbar{
+    /* position: absolute; */
+
+    margin-top: -780px;
+   
+}
+
+.top-bannar .serchbar form{
+    background: #ffffff;
+    width: 335px;
+    height: 7px !important;
+    display: flex;
+    border-radius: 10px;
+    /* margin-left: 13px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-bannar .serchbar form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    border-radius: 5px;
+    
+    
+}
+
+.input-search{
+   text-align: start;
+}
+
+.top-bannar .serchbar form button{
+    background: linear-gradient(34.4deg, #f35230, #f38430); 
+    padding: 13px 10px;  
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: -60px;
+    text-align: center;
+    align-items: center;
+    line-height: 2px;
+
+    }
+
+    /* .top-bannar  .serchbar  form .fa-search{
+        align-self: center;
+        padding: 10px 20px;
+        font-size: 12px;
+        position: absolute;
+        margin-left: -10px;
+        margin-top: 25px;
+    } */
+
+
+input.form-control::placeholder{
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+
+/* searh icon scc starts */
+
+/* .search-wrapper{
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.276);
+    align-items: stretch;
+    border-radius: 12px !important;
+    background-color: #fff;
+    overflow: hidden;
+    max-width: 400px;
+    box-shadow: 1px rgba(0, 0, 0, 0.273);
+    
+    }
+    #search{
+        border:none;
+        width:350px;
+        font-size: 15px;
+        
+    }
+    #search:focus{
+        outline: none;
+    }
+    .search-icon{
+        margin: 10px;
+        color:rgba(0, 0, 0, 0.564);
+    }
+    #search-button{
+        border:none;
+        cursor: pointer;
+        color:#fff;
+        background-color: #f35230;
+        padding:10px 10px;
+    } */
+/* searh icon scc ends */
+
+
+
+
+
+
+.mob_whiteBox{
+    margin-top: 0px;
+}
+
+
+.homeBanner{
+       margin-top: 30px; 
+    padding: 0px 30px 0 30px;
+    justify-content: center;
+    align-items: center;
+    
+    
+     }
+
+     .homeBanner .homeTop_banner .context h1{
+        width: 100%;
+        font-weight: bolder;
+        color: white;
+        font-size: 26px !important;
+        text-align: center;
+        
+    }
+    
+.homeBanner .homeTop_banner .context p{
+        
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        
+    }
+
+
+    .homeTop_banner1 .context .homeBanner_btn a{
+        background-color:white !important;
+        color:#f35230 !important;
+        font-weight: bolder;
+        background: white;
+        font-size: 16px;
+        padding: 10px 0 10px 14px;
+        text-decoration: none;
+        border-radius: 7px;
+        /* box-shadow: 6px 28px 123px 7px rgba(194,31,31,0.11); */
+        outline: none !important;
+        
+       /* margin-top: 10px !important; */
+    
+        
+    }
+
+    .homeTop_banner1 .context .homeBanner_btn .arrow{
+        background-color:#f35230;
+        color:#fff;
+        padding: 5px 10px 5px 10px;
+        margin-right: 5px;
+        border-radius: 7px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .homeBanner_btn {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #image1{
+        margin-top: 30px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    #image2{
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    #image3{
+        margin-top: 20px;
+        width: 320px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    #image4{
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #image5{
+        width: 300px;
+        margin-top: -18px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+    .allicon{
+        display: flex;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px !important;
+        
+    }
+    
+    .univericon{
+        border: 1px rgb(255, 255, 255) solid;
+        background-color: rgb(255, 255, 255);
+        height: 120px;
+        width: 90px ;
+        text-align: center;
+        border-radius: 15px;
+       
+        box-shadow: 3px 3px 3px #e3e3e3;
+    }
+    .univericon h5{
+        color: rgb(9, 177, 157);
+        font-weight: bold;
+        margin: 3px 0px 0 0;
+        font-size: 17px;
+       
+    }
+    
+    .univericon p{
+        margin-top: -2px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .univericon img{
+        height: 60px;
+        width: 60px;
+        margin-top: 3px;
+    }
+    
+    
+    .Usersicon{
+        border: 1px rgb(255, 255, 255) solid;
+        background-color: rgb(255, 255, 255);
+        height: 120px;
+        width: 90px ;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px rgb(227, 227, 227);
+        margin-left: 10px;
+    }
+    .Usersicon h5{
+        color: rgb(140, 0, 255);
+        font-weight: bold;
+        margin: 3px 0px 0 0;
+        font-size: 17px;
+    
+    }
+    
+    .Usersicon p{
+        margin-top: -1px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .Usersicon img{
+        height: 60px;
+        width: 60px;
+        margin-top: 3px;
+    }
+    
+    
+    
+    
+    .Publishicon{
+        border: 1px rgb(255, 255, 255) solid;
+        background-color: rgb(255, 255, 255);
+        height: 120px;
+        width: 90px ;
+        text-align: center;
+        border-radius: 15px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px rgb(227, 227, 227);
+        margin-left: 10px;
+    }
+    
+    .Publishicon h5{
+        color: rgb(51, 0, 255);
+        font-weight: bold;
+        margin: 3px 0px 0 0;
+        font-size: 17px;
+        
+    }
+    
+    .Publishicon p{
+        margin-top: -1px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .Publishicon img{
+        height: 60px;
+        width: 60px;
+        margin-top: 3px;
+    }
+    
+                                /* university,user,publish logo section css ends */
+    
+
+                                .kk_cards_widget {
+                                    background: #FEFEFE;
+                                    padding: 0px 0;
+                                   
+                                    margin-top: 50px;
+                                    padding: 7px;
+                                }
+                                .card_spacing{
+                                    padding: 4px;
+                                   
+                                   
+                                }
+                                a.kk_cards{
+                                    display: block;
+                                    background: #ffffff;
+                                    transition: .3s;
+                                    margin-bottom: 20px;
+                                    box-shadow: 3px 3.667px 3.84px 0.16px rgb(0 0 0 / 3%);
+                                    text-align: center;
+                                    padding: 10px 10px;
+                                    border-radius: 10px;
+                                    margin-bottom: 10px;
+                                    text-decoration: none;
+                                    font-size: 13px;
+                                    color: #383838;
+                                }
+                                a.kk_cards:hover {
+                                    background: #fb7b4c;
+                                    color: #fff;
+                                }
+                            
+                                .cards_bgcolor{
+                                    padding: 15px 7px;
+                                    border-radius: 10px;
+                                    margin-bottom: 10px;
+                                }
+                                .cards_bgcolor>img{
+                                    width: 70px;
+                                    height: 50px;
+                                }
+                                .books_kk{
+                                    background: #D2EEE8;
+                                }
+                                .notes_kk{
+                                    background: #ffe6c7;
+                                }
+                                .mcq_kk{
+                                    background: #F7E0FE;
+                                }
+                                .live_class_kk{
+                                    background: #CBF0ED;
+                                }
+                                .solved_paper_kk{
+                                    background: #DBF0B4;
+                                }
+                                .videos_kk{
+                                    background: #D0C7FF;
+                                }
+
+                                .button{
+                                    display: inline;
+                                }
+
+            
+                            
+                                
+                             
+                                   
+                                    
+                                    
+                                
+                                 /* @media(max-width:600px){
+                                    .top-bannar .backgroundimage{
+                                        width: 100% ;
+                                        height: 800px;
+                                        margin-top: -1px;
+                                        background-image: url(./image/orange1.png);
+                                        background-repeat: no-repeat;
+                                        
+                                    }} */
+
+
+                                    @media(min-width:360px){
+                                        .top-bannar .backgroundimage{
+                                            width: 100% ;
+                                            height: 800px;
+                                            margin-top: -1px;
+                                            background-image: url(./image/orange1.png);
+                                            background-repeat: no-repeat;
+                                            
+                                        }
+                                        .top_right{
+                                        
+                                            margin-left: 140px !important;
+                                            
+                                            } }  
+
+                                            @media(min-width:375px){
+                                               
+                                                .top_right{
+                                                
+                                                    margin-left: 160px !important;
+                                                    
+                                                    } }  
+
+                                                    @media(min-width:390px){
+                                               
+                                                        .top_right{
+                                                        
+                                                            margin-left: 177px !important;
+                                                            
+                                                            } }  
+
+                                                            @media(min-width:400px){
+                                               
+                                                                .top_right{
+                                                                
+                                                                    margin-left: 195px !important;
+                                                                    
+                                                                    } } 
+        
+
+
+                                @media(min-width: 750px) {
+                                    .top_right{
+                                        
+                                        margin-left: 550px !important;
+                                        
+                                        font-size: 18px;
+                                    }
+
+                                    .top-bannar .backgroundimage{
+                                        width: 100% ;
+                                        height: 800px !important;
+                                        margin-top: -1px;
+                                        background-image: url(./image/orange1.png);
+                                        background-repeat: no-repeat;
+                                        
+                                    }
+
+                                    .top-bannar .serchbar form{
+                                        
+                                        width: 535px;
+                                       height: 35px !important;
+                                        display: block;
+                                        margin-left: auto;
+                                        margin-right: auto;
+                                    }
+                                    
+                                    .top-bannar .serchbar form button{
+                                        padding: 15px 5px;  
+                                        border: 2px solid white;
+                                        border-radius: 5px;
+                                        color: white;
+                                        outline: none;
+                                        font-size: 16px;
+                                        cursor: pointer;
+                                        margin-left: -60px;
+                                        text-align: center;
+                                        align-items: center;
+                                        line-height: 2px;
+                                    
+                                        }
+                                    
+                                      
+                                    
+                                    input.form-control::placeholder{
+                                        font-size: 16px;
+                                        padding-left: 20px;
+                                    }
+
+                                    .homeBanner{
+                                        margin-top: 0px; 
+                                     padding: 0px 30px 0 30px;
+                                    
+                                     display: block;
+                                     margin-left: auto;
+                                     margin-right: auto;
+                                     width: 600px;
+                                     
+                                      }
+                                 
+                                      .homeBanner .homeTop_banner .context h1{
+                                        
+                                         font-weight: bold;
+                                         
+                                         font-size: 36px !important;
+                                        
+                                         
+                                     }
+                                     
+                                 .homeBanner .homeTop_banner .context p{
+                                         
+                                      
+                                         font-size: 20px;
+                                         margin-top: -15px;
+                                         
+                                     }
+                                 
+                                 
+                                     .homeTop_banner1 .context .homeBanner_btn a{
+                                         background-color:white !important;
+                                         color:#f35230 !important;
+                                         font-weight: bolder;
+                                         background: white;
+                                         font-size: 22px;
+                                         padding: 10px 0 10px 14px;
+                                         text-decoration: none;
+                                         border-radius: 10px;
+                                         /* box-shadow: 6px 28px 123px 7px rgba(194,31,31,0.11); */
+                                         outline: none !important;
+                                         
+                                        /* margin-top: 10px !important; */
+                                     
+                                         
+                                     }
+                                 
+                                     .homeTop_banner1 .context .homeBanner_btn .arrow{
+                                         background-color:#f35230;
+                                         color:#fff;
+                                         padding: 5px 10px 5px 10px;
+                                         margin-right: 5px;
+                                         border-radius: 7px;
+                                         font-size: 15px;
+                                         font-weight: 800;
+                                         margin-top: 20px !important;
+                                     }
+                                     
+                                     .homeBanner_btn {
+                                         text-align: center;
+                                         margin-top: 20px !important;
+                                     }
+                                 
+                                     #image1{
+                                         margin-top: 30px;
+                                         width: 320px;
+                                         display: block;
+                                         margin-left: auto;
+                                         margin-right: auto;
+                                     }
+                                    
+                                     #image2{
+                                         width: 320px;
+                                         display: block;
+                                         margin-left: auto;
+                                         margin-right: auto;
+                                     }
+                                 
+                                 
+                                 
+                                     #image3{
+                                         margin-top: 20px;
+                                         width: 320px;
+                                         display: block;
+                                         margin-left: auto;
+                                         margin-right: auto;
+                                         
+                                     }
+                                     #image4{
+                                         width: 320px;
+                                         display: block;
+                                         margin-left: auto;
+                                         margin-right: auto;
+                                     }
+                                 
+                                     #image5{
+                                         width: 320px;
+                                         margin-top: -18px;
+                                         display: block;
+                                         margin-left: auto;
+                                         margin-right: auto;
+                                 
+                                     }
+                                     .allicon{
+                                        display: flex;
+                                        margin-top: 90px !important;
+                                        display: flex;
+                                        justify-content: center;
+                                        margin-top: 30px !important;
+                                        
+                                    }
+                                    
+                                }
+                                
+                                
+                                                               
+                                         
+                                       
+                                  
