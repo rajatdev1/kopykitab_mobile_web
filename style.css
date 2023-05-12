@@ -56,7 +56,7 @@ padding-left: 0px;
    position: relative;
    margin-left: -32px !important;
    margin-top: 10px;
-   background-position: 0px;
+   background-position: -3px -1.4px;
    display: inline-block;
     overflow: hidden;
     text-indent: -9999px;
@@ -90,7 +90,7 @@ padding-left: 0px;
 .top-bannar .serchbar form{
     background: #ffffff;
     width: 335px;
-    height: 7px !important;
+    height: 12px !important;
     display: flex;
     border-radius: 10px;
     /* margin-left: 13px; */
@@ -126,7 +126,7 @@ padding-left: 0px;
     margin-left: -60px;
     text-align: center;
     align-items: center;
-    line-height: 2px;
+    line-height: 3px;
 
     }
 
@@ -497,13 +497,34 @@ input.form-control::placeholder{
                                             
                                             } }  
 
+
+
                                             @media(min-width:375px){
                                                
                                                 .top_right{
                                                 
                                                     margin-left: 160px !important;
                                                     
-                                                    } }  
+                                                    } 
+                                                
+.top-bannar .serchbar form{
+    
+    width: 345px;
+    height: 12px !important;
+   
+}
+
+.top-bannar .serchbar form button{
+   
+    line-height: 3px;
+
+    }
+
+   
+
+                                                }  
+
+
 
                                                     @media(min-width:390px){
                                                
@@ -511,7 +532,20 @@ input.form-control::placeholder{
                                                         
                                                             margin-left: 177px !important;
                                                             
-                                                            } }  
+                                                            }
+                                                            .top-bannar .serchbar form{
+    
+                                                                width: 365px;
+                                                                height: 12px !important;
+                                                               
+                                                            }
+                                                            
+                                                            .top-bannar .serchbar form button{
+                                                               
+                                                                line-height: 3px;
+                                                            
+                                                                }
+                                                        }  
 
                                                             @media(min-width:400px){
                                                
@@ -519,9 +553,22 @@ input.form-control::placeholder{
                                                                 
                                                                     margin-left: 195px !important;
                                                                     
-                                                                    } } 
+                                                                    } 
+                                                                    .top-bannar .serchbar form{
+    
+                                                                        width: 385px;
+                                                                        height: 12px !important;
+                                                                       
+                                                                    }
+                                                                    
+                                                                    .top-bannar .serchbar form button{
+                                                                       
+                                                                        line-height: 3px;
+                                                                    
+                                                                        }
+                                                                } 
         
-
+                                                                  
 
                                 @media(min-width: 750px) {
                                     .top_right{
@@ -683,16 +730,14 @@ input.form-control::placeholder{
                                     }
                                     
                                 }
-
-                                   @media(min-width: 900px) {
+                                
+                                @media(min-width: 900px) {
                                     .top_right{
                                         
                                         margin-left: 690px !important;
                                         
                                         font-size: 18px;
                                     }}
-                                
-                                
                                 
                                                                
                                          
